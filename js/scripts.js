@@ -11,5 +11,13 @@ document.getElementById("buttonLight").addEventListener('pointerdown', function(
   body.style.color = "red";
 });
 
+document.getElementById("buttonDFont").addEventListener('pointerdown', function() {
+  let body = document.body;
+  body.style.fontSize = "x-small";
+});
 
+document.getElementById("buttonBigFont").addEventListener('pointerdown', function() {
+  let body = document.body;
+  body.style.fontSize = "2em";
+});
 }
